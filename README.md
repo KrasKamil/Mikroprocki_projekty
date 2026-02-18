@@ -4,7 +4,7 @@ Witaj w moim repozytorium! Znajdujesz tu zbiór projektów opartych na mikrokont
 
 Projekty pisane są głównie w języku **C** w środowisku **Keil uVision**, z naciskiem na programowanie "bare-metal" (bezpośrednio na rejestrach), co pozwala na głębokie zrozumienie działania sprzętu.
 
----
+
 
 ## 📂 Spis Projektów
 
@@ -28,6 +28,19 @@ Poniżej znajduje się lista dostępnych projektów. Kliknij w nazwę, aby przej
 * **Język:** C (Standard C99).
 * **IDE:** Keil uVision 5.
 * **Biblioteki:** CMSIS-CORE (rejestry), własne biblioteki obsługi peryferiów (ADC, I2C, LCD).
+
+---
+
+## 🔌 Pinout Płytki (Hardware Reference)
+To jest główny schemat wyprowadzeń, z którego korzystam we wszystkich projektach.
+Piny zgodne ze standardem **Arduino R3** są zaznaczone na niebiesko.
+
+![FRDM-KL05Z Pinout](./frdm-kl05z.png)
+
+> **Szybka ściąga:**
+> * **I2C:** PTB3 (SCL), PTB4 (SDA)
+> * **UART:** PTB1 (TX), PTB2 (RX)
+> * **PWM (LED RGB):** PTB8 (Red), PTB9 (Green), PTB10 (Blue)
 
 ---
 
