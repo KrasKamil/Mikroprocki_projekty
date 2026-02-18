@@ -1,0 +1,27 @@
+# Keil uVision ignore list
+# Ignoruj foldery wyjściowe kompilacji
+Objects/
+Listings/
+RTE/
+
+# Ignoruj pliki tymczasowe i binarne
+*.o
+*.d
+*.crf
+*.axf
+*.htm
+*.dep
+*.map
+*.lnp
+*.bak
+*.sct
+*.lst
+
+# Ignoruj ustawienia użytkownika (okna, układy debuggera)
+# To ważne, bo te pliki zmieniają się przy każdym kliknięciu w Keilu!
+*.uvoptx
+*.uvguix.*
+
+# Ignoruj pliki J-Link (jeśli używasz)
+JLinkLog.txt
+*.jlink
